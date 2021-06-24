@@ -2,31 +2,62 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>HTML 1</title>
+<title>The Magic Words</title>
+	<body style="background-color:steelblue"></body>
+	<style>table, th, td {color:wheat}</style>
+	<style>.magictext{text-align:center; color:cornsilk; font-family:'Baskerville'; font-size:135%}</style>
+	<style>#potter{color:wheat}</style>
 </head>
 
-<body style="background-color:black">
-	<img title="blog by Valerie DeJesus" src="images/japaneseprint.png" alt="powered by Brilliant Star Production Studios">
-	<h3 style="color:orchid; font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif'"><i>a book<br>mapping<br>series</i></h3>
-	<h1 style="color:darkgoldenrod; text-align:center; font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif'"><i><b>Character, Setting, & Plot:<br>Harry Potter and the Sorcerer's Stone</b></i></h1>
-	<center><img src="images/stephlewharrypottercover.png" alt="Harry Potter and the Sorcerer's Stone by illustrator Steph Lew"></center>
-	<p style="font-size:125%; text-align:center;"><i><span style="color:darkgoldenrod">Harry Potter and the Sorcerer's Stone</span></i><span style="color:antiquewhite"> is the first book in the critically-acclaimed and best-selling series by J.K. Rowling.<br>It is in this first book that we are not only introduced to our protagonist eleven year-old Harry Potter, but also<br>to a colorful cast of characters, a magical world full of wonder, and a dangerous mystery to solve.<br><br>In the following sections of this book mapping series, we will take a quick look at the cast of <i><span style="color:darkgoldenrod">Harry Potter and the Sorcerer's Stone</span></i>,<br>followed by a look into the world and its fantastical elements, and finally how secrets and mystery drive the story forward.</span></p>
+<body>
+	<h3 style="color:orchid; font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif'"><i>the magic words</i><br><a href="index.html"><img title="blog by Valerie DeJesus" src="images/japaneseprint.png" alt="powered by Brilliant Star Production Studios"></a><br></h3>
+	<h1 style="text-align:center; color:whitesmoke; font-family:'Georgia'"><i><b>the Magic Words:<br><span style="color:wheat;font-size:75%">a story mapping series</span></b></i></h1>
+	<center><img title="The Magic Words" src="images/themagicwords540x424.png" alt="artwork by Alexandra Dikaia"></center>
+	<div class="magictext">
+	<p><i>In this blog, I explore some of my favorite children & middle grade fantasy stories<br>by mapping out the main story elements:</i></p></div>
+	<br>
+	<center><table style="width:85%; font-family:'Georgia'; font-size:125%" >
+		<tr>
+			<th>character<br><script>
+				function character(sw) {var pic; if (sw==0) {pic="images/harry.png"} else {pic="images/hilda.png"} document.getElementById("character").src=pic;}
+				</script>
+			<img id="character" src="images/harry.png" alt="harry potter">
+				<br>
+			<button type="button" onClick="character(0)"><b>harry</b></button>
+			<button type="button" onClick="character(1)"><b>hilda</b></button>
+			</th>
+			<th>setting<br><script>
+				function setting(sw) {var pic; if (sw==0) {pic="images/hogwartscastle.png"} else {pic="images/trollberg.png"} document.getElementById("setting").src=pic;}
+				</script>
+			<img id="setting" src="images/hogwartscastle.png" alt="hogwarts castle">
+				<br>
+			<button type="button" onClick="setting(0)"><b>hogwarts</b></button>
+			<button type="button" onClick="setting(1)"><b>trollberg</b></button>
+			</th>
+			<th>plot<br><script>
+				function plot(sw) {var pic; if (sw==0) {pic="images/harryplot.png"} else {pic="images/hildaplot.png"} document.getElementById("plot").src=pic;}
+				</script>
+			<img id="plot" src="images/harryplot.png" alt="harry and friends">
+				<br>
+			<button type="button" onClick="plot(0)"><b>harry and friends</b></button>
+			<button type="button" onClick="plot(1)"><b>hilda and friends</b></button>
+			</th>
+		</tr>
+	</table></center>
 	<br>
 	<hr>
-	<h2 style="color:indianred; text-align:center; font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif'"><i><b>A Colorful Cast of Characters</b></i></h2>
-	<center><img title="Part One: Character" src="images/harrypottercast259x399.png" alt="Our Heroic Trio: Ron, Harry, and Hermione"></center>
-		<h3 style="color:indianred; text-align:center; font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif'"><i><b>From friends and bullies to rolemodels and villains,
-			<br>in Part One we will take a look at this fun cast of characters.</b></i></h3>
+	<br>
+	<div class="magictext">
+	<p><i>For my first story selection, I explore the best-selling novel <b><span style="color:wheat">Harry Potter and the Sorcerer's Stone</span></b> by J.K. Rowling.</i><br><span style="font-size:75%">(please click image below or <a href="harrypotterbookone.html">here</a> for the Harry Potter story mapping page)</span></p></div><br>
+	<center><a href="harrypotterbookone.html"><img title="Harry Potter and the Sorcerer's Stone" src="images/stephlewharrypottercover.png" alt="Harry Potter and the Sorcerer's Stone cover illustration by Steph Lew"></a></center>
+	<br>
 	<hr>
-	<h2 style="color:cadetblue; text-align:center; font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif'"><i><b>Fantastical Places & Magical Spaces</b></i></h2>
-	<center><img title="Part Two: Setting" src="images/harrypotterworld259x399.png" alt="Harry, Hermione and Ron enjoy a snow day on Hogwarts Grounds"></center>
-		<h3 style="color:cadetblue; text-align:center; font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif'"><i><b>From magical classes on castle grounds to adventures in a  dark forest,
-			<br>in Part Two we will map out this fantastical world.</b></i></h3>
+	<br>
+	<div class="magictext">
+	<p><i>For my next story selection, I will explore the graphic novel series <b><span style="color:lightcoral">Hilda</span></b> by Luke Pearson:</i><br><span style="font-size:75%">(upcoming story mapping series)</span></p></div>
+	<center><img title="Hilda" src="images/hildacover540x424.png" alt="Hilda cover illustration by Luke Pearson"></center>
+	<br>
 	<hr>
-	<h2 style="color:palevioletred; text-align:center; font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif'"><i><b>Secrets & Mysteries</b></i></h2>
-	<center><img title="Part Three: Plot" src="images/harrypottermystery259x399.png" alt="Harry, Hermione and Ron sneak around Hogwarts Castle with the help of the Invisibility Cloak"></center>
-		<h3 style="color:palevioletred; text-align:center; font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif'"><i><b>From an orphaned boy with a secret destiny and whispers of a dark lord,
-			<br>in Part Three we will explore how mystery drives the story forward.</b></i></h3>
-	<hr>
-	</body>
+	<br>
+</body>
 </html>
